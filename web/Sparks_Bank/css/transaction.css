@@ -1,0 +1,90 @@
+.navbar{
+  padding:0 0 4.5rem;
+
+}
+
+.navbar-brand{
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  font-family: serif;
+  padding: 0 18px;
+}
+
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+#footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: black;
+  background-color: #dbe6fd ;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+#title{
+  background-color: #dbe6fd;
+}
+#form{
+  text-align: center;
+  padding-left: 30%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.card-img-top{
+
+  max-height: 140px;
+  max-width: 140px;
+  text-align: center;
+  display: inline;
+}
+
+.input-form{
+  margin-bottom: 10px;
+}
+label{
+  display: inline-block;
+  width:150px;
+}
+.download-button{
+  display: inline-block;
+  margin: 5% 10% 5% 10% ;
+}
+ @media (max-width:1028px){
+   #title{
+     text-align: center;
+   }
+   #form{
+     text-align: center;
+     padding-left: 30%;
+     padding-top: 1%;
+   }
+ }
+
+ h3{
+   padding-top: 2%;
+   font-size: 2rem;
+   text-align: center;
+ }
+
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
