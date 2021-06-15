@@ -57,7 +57,7 @@ con=DriverManager.getConnection
  String r_name=request.getParameter("recievername");
  String amt=request.getParameter("amount");
  count++;
- String id="t0"+count;
+ String id="t"+count;
   //String t_id=request.getParameter("transactionid");
  smt.setString(1,id);
  smt.setString(2,s_name);
